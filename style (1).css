@@ -1,0 +1,78 @@
+body {
+    color: rgb(161, 19, 19);
+    background: rgb(0, 5, 24);
+    margin: 0px;
+    font-family: "Faster One", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(2, 2, 71);
+    padding: 20px;
+    font-size: 32px;
+    color: rgba(248, 251, 58, 0.815);
+    font-family: "Faster One", sans-serif;
+    letter-spacing: 2px;
+}
+
+section .chamada {
+    background: rgb(241, 234, 249);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: rgba (0, 0, 0);
+    font-family: "Faster One", sans-serif;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chamada {
+    background: rgba(255, 201, 201, 1);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria h2 {
+    color: rgb(247, 247, 247);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
